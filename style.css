@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.home {
+  background: radial-gradient(ellipse at center, rgba(180,152,128,0.9) 0%, rgba(167,140,118,1) 100%), 
+    url(http://i.stack.imgur.com/PEnJm.png) repeat center;
+  color: white;
+}
+
+.home img {
+  width: 50%;
+  margin-top: 100px;
+}
+
+h2, h3 {
+  font-weight: 100;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
